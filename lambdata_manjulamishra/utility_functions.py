@@ -26,7 +26,7 @@ def confusion_matrix_viz(y_true, y_pred):
 	return sns.heatmap(matrix, annot=True, 
 		fmt=",", linewidths=1, linecolor='grey', sqaure=True,
 		xticklabels=['Predicted\nNo', 'Predicted\nYes'],
-		yticklabels=['Actaul\nNo', 'Actaul\nYes'])
+		yticklabels=['Actual\nNo', 'Actual\nYes'])
 
 
 
